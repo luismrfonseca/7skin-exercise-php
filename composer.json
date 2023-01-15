@@ -1,0 +1,10 @@
+{
+    "name": "lfonseca/program",
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+      "classmap": ["src/Config", "src/Controllers", "src/Services", "src/Models"]
+    }
+}
